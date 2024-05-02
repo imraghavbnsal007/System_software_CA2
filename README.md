@@ -1,10 +1,6 @@
 System Software Client-Server Assignment
 This is the repository for second assignment of TUD Year 4 module - System Software
 
-Contributers
-Ayan Abedin D19125792@mytudublin.ie
-Licence & Copyright
-© Ayan Abedin, System Software 2024
 
 CTO Requirements
 No direct access to the Server folders.
@@ -12,6 +8,7 @@ Multiple users must be able to transfer files at the same time.
 Files transferred must be attributed to the transfer user.
 A specific user will have access to either the (Manufacturing/Distribution) folders.
 If synchronisation is an issue use a C Mutex Lock for Linux Thread Synchronization.
+
 Project Requirements
 Create a Server Socket program to run on the main Server.
 Create a Client program to connect to the server socket program.
@@ -24,3 +21,5 @@ The server must inform the client if the transfer was successful or not.
 General Assumptions.
 The solution for the problem stated above can be developed on a single machine.
 The client will only transfer one file at a time.
+
+Video Demo: 
